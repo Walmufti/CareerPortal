@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300" rel="stylesheet" type="text/css">
+
+</head>
+<body id="indexBody">
+
+    <section id="header">
+        <div class="header__Background">
+            <img src="img/header/yodaLogo/desktop-components-logo.png" alt="yodaLogo.png">
+            <div class="header__link">
+                <span>Search jobs</span>
+                <span>Link</span>
+                <span>Link</span>
+                <span>Link</span>
+            </div>
+            <div class="header_stackMenuIcon">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div>
+            <img class="header__banner" src="img/header/banner1/desktop-banner-banner.png" alt="banner.png">
+            <img class="header__banner--media" src="img/mediaImg/headerBanner/mobile-atoms-banner-normal.png" alt="banner.png">
+        </div>
+    </section>
+
+    <section id="select">
+            <div class="select__inputHeader">
+                <div class="select__inputHeader--inputContainer">
+                    <div>
+                        <span class="label">Keywords</span>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <span class="label">Location</span>
+                        <select class="selecter">
+                            <option>Select an option</option>
+                        </select>
+                    </div>
+                    <div>
+                        <span class="label">Business unit</span>
+                        <select class="selecter">
+                            <option>Select an option</option>
+                        </select>
+                    </div>
+                    <div>
+                        <span class="label">Department</span>
+                        <select class="selecter">
+                            <option>Select an option</option>
+                        </select>
+                    </div>
+                    <div class="select__search">
+                        <span>Search</span>
+                    </div>
+                </div>
+            </div>
+            <div class="select__searchPosition">
+                <div class="select__searchPosition--search">
+                    <span>Search for open position</span>
+                </div>
+                <div class="select__searchPosition--img">
+                    <img src="img/searchIcon.png" alt="search.png">
+                </div>
+            </div>
+    </section>
+
+    <section id="careerListing">
+        <div class="careerListing__Background">
+            <div class="careerListing__ComponentsResults">
+                <div class="careerListing__pageIndicator">
+                    <div>
+                        <span class="careerListing__pageIndicator--resultIndicator">1 - 10 of 26 <span class="careerListing__pageIndicator--resultIndicator__results">results.</span></span>
+                    </div>
+                    <div>
+                        <span class="careerListing__pageIndicator--filtersApplied">Filters applied ( <span class="careerListing__pageIndicator--filtersApplied__reset">Reset</span> )</span>
+                    </div>
+                </div>
+                <!--for media only-->
+                <div class="careerListing__listingIndicator--sortByMedia">
+                    <select class="selectBar--media">
+                        <option>Sort By</option>
+                    </select>
+                </div>
+                <div class="careerListing__listingIndicator">
+                    <div class="careerListing__listingIndicator--rightPagination">
+                        <select class="selectBar">
+                            <option>Sort By</option>
+                        </select>
+                        <span id="activeItem">1</span>
+                        <span>2</span>
+                        <span>3</span>
+                        <span>Next>></span>
+                    </div>
+                </div>
+            </div>
+            <div class="jobListing">
+                <div class="jobListing__job">
+                    <div class="jobListing__job--jobSection">
+                        <span class="jobListing__job--jobSection__job">Sr. Marketing Analyst</span>
+                        <span class="jobListing__job--jobSection__jobInfo">Location &#183; Ref # &#183; Date posted</span>
+                    </div>
+                    <div class="jobListing__job--apply">
+                        <a href="applyToJob_p2.html"><button>Apply</button></a>
+                        <img src="img/share2.png" alt="share.png">
+                    </div>
+                </div>
+
+                <!--Speech Bubble-->
+                <div class="speech-bubble">
+                    <img src="img/speechBubble.png" alt="speechBubble.png">
+                </div>
+
+                <div class="jobListing__job">
+                    <div class="jobListing__job--jobSection">
+                        <span class="jobListing__job--jobSection__job" id="activeItem">UX Designer</span>
+                        <span class="jobListing__job--jobSection__jobInfo">Location &#183; Ref # &#183; Date posted</span>
+                    </div>
+                    <div class="jobListing__job--apply">
+                        <button>Apply</button>
+                        <img src="img/shareIconHighlighted.png" alt="share.png">
+                    </div>
+                </div>
+                <div class="jobListing__job">
+                    <div class="jobListing__job--jobSection">
+                        <span class="jobListing__job--jobSection__job">Cyber Security Developer</span>
+                        <span class="jobListing__job--jobSection__jobInfo">Location &#183; Ref # &#183; Date posted</span>
+                    </div>
+                    <div class="jobListing__job--apply">
+                        <button>Apply</button>
+                        <img src="img/share2.png" alt="share.png">
+                    </div>
+                </div>
+                <div class="jobListing__job">
+                    <div class="jobListing__job--jobSection">
+                        <span class="jobListing__job--jobSection__job">QA Engineer</span>
+                        <span class="jobListing__job--jobSection__jobInfo">Location &#183; Ref # &#183; Date posted</span>
+                    </div>
+                    <div class="jobListing__job--apply">
+                        <button>Apply</button>
+                        <img src="img/share2.png" alt="share.png">
+                    </div>
+                </div>
+                <div class="jobListing__job">
+                    <div class="jobListing__job--jobSection">
+                        <span class="jobListing__job--jobSection__job">Regional Marketing Strategy Manager</span>
+                        <span class="jobListing__job--jobSection__jobInfo">Location &#183; Ref # &#183; Date posted</span>
+                    </div>
+                    <div class="jobListing__job--apply">
+                        <span class="jobListing__job--apply__alreadyApplied">Already Applied</span>
+                        <img src="img/share2.png" alt="share.png">
+                    </div>
+                </div>
+                <div class="jobListing__job">
+                    <div class="jobListing__job--jobSection">
+                        <span class="jobListing__job--jobSection__job">AI Engineering Manager</span>
+                        <span class="jobListing__job--jobSection__jobInfo">Location &#183; Ref # &#183; Date posted</span>
+                    </div>
+                    <div class="jobListing__job--apply">
+                        <button>Apply</button>
+                        <img src="img/share2.png" alt="share.png">
+                    </div>
+                </div>
+                <div class="jobListing__job">
+                    <div class="jobListing__job--jobSection">
+                        <span class="jobListing__job--jobSection__job">IT Engineer</span>
+                        <span class="jobListing__job--jobSection__jobInfo">Location &#183; Ref # &#183; Date posted</span>
+                    </div>
+                    <div class="jobListing__job--apply">
+                        <button>Apply</button>
+                        <img src="img/share2.png" alt="share.png">
+                    </div>
+                </div>
+                <div class="jobListing__job">
+                    <div class="jobListing__job--jobSection">
+                        <span class="jobListing__job--jobSection__job">Sr. Financial Analyst</span>
+                        <span class="jobListing__job--jobSection__jobInfo">Location &#183; Ref # &#183; Date posted</span>
+                    </div>
+                    <div class="jobListing__job--apply">
+                        <button>Apply</button>
+                        <img src="img/share2.png" alt="share.png">
+                    </div>
+                </div>
+                <div class="jobListing__job">
+                    <div class="jobListing__job--jobSection">
+                        <span class="jobListing__job--jobSection__job">Back-End Developer</span>
+                        <span class="jobListing__job--jobSection__jobInfo">Location &#183; Ref # &#183; Date posted</span>
+                    </div>
+                    <div class="jobListing__job--apply">
+                        <button>Apply</button>
+                        <img src="img/share2.png" alt="share.png">
+                    </div>
+                </div>
+                <div class="jobListing__job">
+                    <div class="jobListing__job--jobSection">
+                        <span class="jobListing__job--jobSection__job">Front-End Engineering Intern</span>
+                        <span class="jobListing__job--jobSection__jobInfo">Location &#183; Ref # &#183; Date posted</span>
+                    </div>
+                    <div class="jobListing__job--apply">
+                        <button>Apply</button>
+                        <img src="img/share2.png" alt="share.png">
+                    </div>
+                </div>
+            </div>
+
+            <!--career list for media only-->
+            <div class="careerListing--media">
+                <div class="jobListing__job--mediaBox">
+                    <div class="jobListing__job--media">
+                        <span class="jobListing__job--media__title">Job title sample</span>
+                        <span class="jobListing__job--media__location">Houston, Texas, United States &#x2022; Communications &#x2022; Human Resources</span>
+                        <div class="jobListing__job--media__linkBox">
+                            <a href="applyToJob_p2.html" class="noUnderline"><span class="jobListing__job--media__linkBox--link">Apply</span></a>
+                            <span class="jobListing__job--media__linkBox--link">Share</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jobListing__job--mediaBox">
+                    <div class="jobListing__job--media">
+                        <span class="jobListing__job--media__title">Job title sample</span>
+                        <span class="jobListing__job--media__location">Houston, Texas, United States &#x2022; Communications &#x2022; Human Resources</span>
+                        <div class="jobListing__job--media__linkBox">
+                            <span class="jobListing__job--media__linkBox--link__applied">Already applied</span>
+                            <span class="jobListing__job--media__linkBox--link">Share</span>
+                        </div>
+                    </div>
+                </div>
+            
+
+                <div class="jobListing__job--mediaBox">
+                    <div class="jobListing__job--media">
+                        <span class="jobListing__job--media__title">Job title sample</span>
+                        <span class="jobListing__job--media__location">Houston, Texas, United States &#x2022; Communications &#x2022; Human Resources</span>
+                        <div class="jobListing__job--media__linkBox">
+                            <a href="applyToJob_p2.html" class="noUnderline"><span class="jobListing__job--media__linkBox--link">Apply</span></a>
+                            <span class="jobListing__job--media__linkBox--link">Share</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jobListing__job--mediaBox">
+                    <div class="jobListing__job--media">
+                        <span class="jobListing__job--media__title">Job title sample</span>
+                        <span class="jobListing__job--media__location">Houston, Texas, United States &#x2022; Communications &#x2022; Human Resources</span>
+                        <div class="jobListing__job--media__linkBox">
+                            <a href="applyToJob_p2.html" class="noUnderline"><span class="jobListing__job--media__linkBox--link">Apply</span></a>
+                            <span class="jobListing__job--media__linkBox--link">Share</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jobListing__job--mediaBox">
+                    <div class="jobListing__job--media">
+                        <span class="jobListing__job--media__title">Job title sample</span>
+                        <span class="jobListing__job--media__location">Houston, Texas, United States &#x2022; Communications &#x2022; Human Resources</span>
+                        <div class="jobListing__job--media__linkBox">
+                            <a href="applyToJob_p2.html" class="noUnderline"><span class="jobListing__job--media__linkBox--link">Apply</span></a>
+                            <span class="jobListing__job--media__linkBox--link">Share</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jobListing__job--mediaBox">
+                    <div class="jobListing__job--media">
+                        <span class="jobListing__job--media__title">Job title sample</span>
+                        <span class="jobListing__job--media__location">Houston, Texas, United States &#x2022; Communications &#x2022; Human Resources</span>
+                        <div class="jobListing__job--media__linkBox">
+                            <a href="applyToJob_p2.html" class="noUnderline"><span class="jobListing__job--media__linkBox--link">Apply</span></a>
+                            <span class="jobListing__job--media__linkBox--link">Share</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jobListing__job--mediaBox">
+                    <div class="jobListing__job--media">
+                        <span class="jobListing__job--media__title">Job title sample</span>
+                        <span class="jobListing__job--media__location">Houston, Texas, United States &#x2022; Communications &#x2022; Human Resources</span>
+                        <div class="jobListing__job--media__linkBox">
+                            <a href="applyToJob_p2.html" class="noUnderline"><span class="jobListing__job--media__linkBox--link">Apply</span></a>
+                            <span class="jobListing__job--media__linkBox--link">Share</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jobListing__job--mediaBox">
+                    <div class="jobListing__job--media">
+                        <span class="jobListing__job--media__title">Job title sample</span>
+                        <span class="jobListing__job--media__location">Houston, Texas, United States &#x2022; Communications &#x2022; Human Resources</span>
+                        <div class="jobListing__job--media__linkBox">
+                            <a href="applyToJob_p2.html" class="noUnderline"><span class="jobListing__job--media__linkBox--link">Apply</span></a>
+                            <span class="jobListing__job--media__linkBox--link">Share</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jobListing__job--mediaBox">
+                    <div class="jobListing__job--media">
+                        <span class="jobListing__job--media__title">Job title sample</span>
+                        <span class="jobListing__job--media__location">Houston, Texas, United States &#x2022; Communications &#x2022; Human Resources</span>
+                        <div class="jobListing__job--media__linkBox">
+                            <a href="applyToJob_p2.html" class="noUnderline"><span class="jobListing__job--media__linkBox--link">Apply</span></a>
+                            <span class="jobListing__job--media__linkBox--link">Share</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="jobListing__job--mediaBox">
+                    <div class="jobListing__job--media">
+                        <span class="jobListing__job--media__title">Job title sample</span>
+                        <span class="jobListing__job--media__location">Houston, Texas, United States &#x2022; Communications &#x2022; Human Resources</span>
+                        <div class="jobListing__job--media__linkBox">
+                            <a href="applyToJob_p2.html" class="noUnderline"><span class="jobListing__job--media__linkBox--link">Apply</span></a>
+                            <span class="jobListing__job--media__linkBox--link">Share</span>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="seporator seporator--media">
+                    <div class="seporator__bottomPageIndicator">
+                        <span id="activeItem">1</span>
+                        <span>2</span>
+                        <span>3</span>
+                        <span>Next>></span>
+                    </div>
+                </div>
+            </div>
+            <div class="seporator seporator--main">
+                <div class="seporator__bottomPageIndicator">
+                    <span id="activeItem">1</span>
+                    <span>2</span>
+                    <span>3</span>
+                    <span>Next>></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <div class="footer__background">
+            <div class="footer__imgLogo">
+                <div class="footer__imgLogo--imgAndCopyRight">
+                    <div class="footer__imgLogo--imgAndCopyRight__logoImg">
+                        <img src="img/footer/yodaLogo/desktop-atoms-logo.png" alt="yodalogo.png">
+                    </div>
+                    <div class="footer__imgLogo--imgAndCopyRight__CRcontainer">
+                        <span>Copyright &copy; 2021</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__links">
+                <div class="footing__links--center">
+                    <span class="footing__links--center__link">Stay up to date</span> | <span class="footing__links--center__link">Terms & Conditions</span> | <span class="footing__links--center__link">Privacy Policy</span>
+                </div>
+            </div>
+            <div class="footer__links--mediaLinks">
+                <div>
+                    <span class="footing__links--center__link">Terms & Conditions</span>
+                    <span>|</span>
+                    <span class="footing__links--center__link">Privacy Policy</span>
+                </div>
+                <div>
+                    <span class="footing__links--center__link">Stay up to date</span>
+                </div>
+                <div class="footer__links--mediaLinks__socialIcons">
+                    <img src="img/socialIcon/fb/buttons-share-fb.png" alt="faceBook.png">
+                    <img src="img/socialIcon/tw/buttons-share-tw.png" alt="twitter.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
